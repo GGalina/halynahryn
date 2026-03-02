@@ -5,7 +5,7 @@ export const lightTheme: DefaultTheme = {
   text: '#1f1f1f',
   secondtext: '#f4f4f4',
   thirdtext: '#212122',
-  background: '#e8e8ef',
+  background: '#e8e8efd8',
   secondbackground: 'linear-gradient(180deg, #f5f7fa, #d3d9f7, #e4e0f6)',
   primary: '#65849a',
   accent: '#3b82f6',

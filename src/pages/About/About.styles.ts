@@ -56,7 +56,6 @@ export const Description = styled.ul`
 
 export const TabsContainer = styled.div`
   display: flex;
-  gap: 20px;
   margin-bottom: 20px;
   flex-wrap: wrap;
 `;

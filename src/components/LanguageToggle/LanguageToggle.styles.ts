@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const LanguageWrapper = styled.div`
   position: relative;
-  z-index: 2000;
+  z-index: 1000;
 `;
 
 export const LanguageButton = styled.button`
