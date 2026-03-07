@@ -81,4 +81,29 @@ export const GlobalStyle = createGlobalStyle`
     scroll-padding-top: 70px; 
     scroll-behavior: smooth; 
   }
+
+  /* Firefox */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: ${({ theme }) => theme.accent} ${({ theme }) => theme.background};
+  }
+
+  /* Chrome / Edge / Safari */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: ${({ theme }) => theme.secondbackground};
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: ${({ theme }) => theme.highlight};
+    border-radius: 10px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: ${({ theme }) => theme.accent};
+  }
+
 `;
